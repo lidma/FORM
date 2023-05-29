@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #fefefe;
+    color: #243665;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.btn > a {
+    color: #8BD8BD;
+    text-decoration: none;
+    font-size: 16px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.container {
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+
+}
+.intro__text {
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.logo {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+.left__side {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    background-image: url(img/pexels-lisa-fotios-1068866.jpg);
+    object-fit: contain;
+   
+    
+}
+.right__side {
+    background-color: #fefefe;
+    padding: 150px 30px;
+    
+}
+.form__input {
+    display: flex;
+    gap: 12px;
+    
+}
+form {
+    border: 1px solid #fefefe;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45);;
+}
+
+input {
+    font-size: 16px;
+    border: 1px solid rgba(222, 208, 208, 0.5);
+
+}
+span {
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+}
+#password,
+#confirmePassword {
+    border: 1px solid red;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: #243665;
+    padding: 8px 24px;
+    border-radius: 6px;
+    
+}
